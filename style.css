@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: linear-gradient(90deg,#FFD89B,#19547B);
+
+}
+
+.container{
+    margin: 1vw;
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.dictionary{
+    background-color: aliceblue;
+    text-align: center;
+    width: 40rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid gold;
+    outline: none;
+    width: 40%;
+    margin: 20px;
+}
+
+h2{
+   text-align: left;
+   margin: 10px;
+}
+
+p{
+ text-align: left;
+ color: cadetblue;
+ margin: 4px;
+}
+
+img{
+    float: left;
+    margin: 12px;
+    width: 20px;
+    background-color: lightcoral;
+    border-radius: 50%;
+}
+
+img:active{
+    padding: 9px;
+    border-radius: 50%;
+    background-color: rgb(250, 56, 56);
+}
